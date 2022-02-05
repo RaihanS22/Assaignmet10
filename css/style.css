@@ -44,10 +44,6 @@ body{
     margin: 14px 0;
     border: 1px solid #dddfe2;
 }
-input[type="password"], textarea {
-    background-color : #9c1e1e; 
-    font-size: 17px;
-}
 .signup-box input:focus {
     background-color: #e1e9f5;
 }
