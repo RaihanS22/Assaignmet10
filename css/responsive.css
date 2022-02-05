@@ -1,0 +1,58 @@
+@media (max-width: 886px) {
+    .top-section {
+        flex-direction: column;
+    }
+    .logo-area{
+        width: inherit;
+    }
+    .logo-area img{
+        margin-left: -30px;
+    }
+    .logo-area h2{
+        margin-left: 0;
+    }
+}
+@media (max-width: 500px) {
+    .logo-area {
+        width: 95%;
+    }
+    .signup-area{
+        margin: 0 auto;
+    }
+    .signup-box input {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .signup-box {
+        width: 85%;
+        margin: auto;
+    }
+    .signup-box input[type='submit']{
+        width: 80%;
+    }
+}
+@media (max-width: 441px){
+    .logo-area {
+        width: 90%;
+    }
+    .signup-box input {
+        width: 84%;
+        margin: 10px auto;
+    }
+    .signup-box {
+        width: 80%;
+        margin: auto;
+    }
+    .signup-box input[type='submit']{
+        width: 84%;
+    }
+    .create-page{
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+@media (max-width: 333px) {
+    .create-new{
+        font-size: 12px;
+    }
+}
